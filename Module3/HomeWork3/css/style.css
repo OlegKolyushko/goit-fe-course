@@ -1,0 +1,94 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+padding-top: 53px;
+padding-bottom: 51px;
+}
+.header__nav-list {
+    list-style: none;
+    text-align: center;
+    font-size: 0px;
+}
+/* з цим працює(брав з відео) */
+.header__nav-list li {
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px 40px;
+    margin-bottom: 77px;
+}
+.header__nav-list li:not(:last-child){
+    margin-right: 80px;
+}
+
+/* з цим не працює(робили на парі) */
+/* .header__nav-item {
+    display: inline-block;
+    font-size: 16;
+    padding: 5px 40px;
+} */
+.header__nav-link {
+    color: #626262;
+    font-size: 14px;
+    text-transform: uppercase; 
+    text-decoration: none;
+}
+.header__nav-link-active,
+.header__nav-link:hover {
+    color:#03a9f4;
+}
+.container {
+    width: 903px;
+    margin: 0 auto;
+    font-size: 0;
+}
+.article {
+    width: 421px;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    margin-right: 61px;
+    font-size: 14px;
+}
+.article:nth-child(2n) {
+    margin-right: 0px;
+}
+.article h2 {
+    margin-bottom: 26px;
+    font-size: 30px;
+    color: #626262;
+}
+.article img {
+    margin-bottom: 23px;
+}
+.paragraph {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 21px;
+    color: #b4ad9e;
+}
+.paragraph2 {
+    margin-bottom: 98px;
+    color: #626262;
+}
+.paragraph3 {
+    color: #626262;
+}
+.button {
+    border: 1px solid #626262;
+    margin: 0px;
+    padding: 17px 26px;
+    background-color: white;
+    font-size: 20px;
+    color: #626262;
+    cursor: pointer;
+    margin-right: 325px;
+    margin-left: 355px;
+    margin-top: 40px;
+    margin-bottom: 53px;
+    /* width: 165px;
+    height: 61px; */
+
+}
