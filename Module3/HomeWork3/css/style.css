@@ -36,6 +36,7 @@ padding-bottom: 75px;
     font-size: 14px;
     text-transform: uppercase; 
     text-decoration: none;
+    display: block;
 }
 .header__nav-link:hover {
     color:#03a9f4;
@@ -65,7 +66,7 @@ padding-bottom: 75px;
 .article img {
     margin-bottom: 23px;
 }
-.article1 {
+/* .article1 {
     width: 421px;
     padding: 0px;
     margin: 0px;
@@ -84,7 +85,7 @@ padding-bottom: 75px;
 }
 .article1 img {
     margin-bottom: 23px;
-}
+} */
 .paragraph {
     text-transform: uppercase;
     font-size: 14px;
@@ -138,4 +139,6 @@ padding-bottom: 75px;
 .btn:hover {
     color:#03a9f4;
 }
-    
+ section {
+     padding-bottom: 23px;
+ }
