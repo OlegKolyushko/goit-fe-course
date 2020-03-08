@@ -22,17 +22,17 @@
     background-color: #000000;
     color: #ffffff;
 }
-h2 {
-    padding-bottom: 80px;
+.h2 {
+    margin-bottom: 80px;
     color: #515151;
     font-size: 48px;
     font-weight: 700;
-    line-height: 1.2px;
+    line-height: 1.2;
     text-align: center;
     text-transform: uppercase;
     font-family: Helvetica, sans-serif;
 }
-h2::after {
+.h2::after {
     content: '';
     display: block;
     width: 165px;
@@ -58,6 +58,7 @@ h2::after {
     font-size: 30px;
     line-height: 1;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .header__logo::first-letter {
@@ -85,7 +86,7 @@ h2::after {
     
     /* з цим не працює(робили на парі) */
 .header__nav-item {
-    display: inline-block;
+    float: left;
     font-size: 14px;
     margin-right: 20px;
 }
@@ -99,6 +100,7 @@ h2::after {
     text-transform: uppercase; 
     text-decoration: none;
     font-family: Helvetica, sans-serif;
+    display: block;
 }
 .header__nav-link:hover {
     color:#03a9f4;
@@ -116,6 +118,9 @@ h2::after {
 }
 .products__item:nth-child(4n) {
     margin-right: 0px;
+    margin-bottom: 0px;
+}
+.products__item:nth-last-child(-n+4) {
     margin-bottom: 0px;
 }
 .products__cover {
@@ -156,9 +161,12 @@ h2::after {
 .news__item {
     float: left;
     width: 350px;
-    margin-left: 20px;
-    margin-bottom: 30px;
+    margin-right: 31px;
+    /* margin-bottom: 30px; */
     font-family: Helvetica, sans-serif;
+}
+.news__item:last-child {
+    margin-right: 0px;
 }
 .news__cover {
     display: block;
@@ -170,6 +178,7 @@ h2::after {
     color: #555252;
     font-size: 18px;
     line-height: 26px;
+    margin-bottom: 29px;
 }
 .news__title::after {
     content: '';
@@ -180,7 +189,7 @@ h2::after {
     background-color: #1abc9c;
 }
 .news__text {
-    padding-top: 29px;
+    /* padding-top: 29px; */
     font-size: 14px;
     line-height: 26px;
 
@@ -193,8 +202,12 @@ h2::after {
     border-radius: 3px;
     color: #ffffff;
     cursor: pointer;
+    text-decoration: none;
 
 }
 .news__link:hover {
     background-color: #000000;
+}
+.link {
+    display: block;
 }
