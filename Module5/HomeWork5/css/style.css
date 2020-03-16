@@ -259,16 +259,7 @@
     box-sizing: border-box;
     text-align: center;
 }
-.products__item-action1 {
-    float: left;
-    width: 50px;
-    height: 50px;
-    margin-right: 8px;
-    border: 1px solid #fff;
-    box-sizing: border-box;
-    text-align: center;
-}
-.products__item-action:nth-child(n+4) {
+.products__item-action:nth-child(n+3) {
     margin-right: 0;
 }
 .products__item-action:last-child {
