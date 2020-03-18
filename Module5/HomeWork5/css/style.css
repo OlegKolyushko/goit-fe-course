@@ -11,8 +11,8 @@
     clear: both;
 }
 .wrapper {
-    width: 100%;
-    max-width: 1600px;
+    /* width: 100%;
+    max-width: 1600px; */
     /* padding-left: 15px;
     padding-right: 15px; */
     margin: auto;
@@ -112,7 +112,7 @@
     background-image: url(../img/girlsshadow1.png);
     background-repeat: no-repeat;
     background-position: center;
-
+    margin: auto;
 }
 .slider__content-wrap {
     position: absolute;
@@ -176,9 +176,9 @@
     width: 1110px;
     margin: 0 auto;
 }
-.container__footer {
+/* .container__footer {
     width: 1600px;
-}
+} */
 
 .products {
     position: relative;
@@ -335,13 +335,13 @@
    transform: translateY(50%);
 } */
 .footer {
-    position: absolute;
+    /* position: absolute; */
     /* width: 1600px;
     height: 90px; */
     padding-top: 40px;
     padding-bottom: 40px;
-    left: 50%;
-    transform: translateX(-50%);
+    /* left: 50%;
+    transform: translateX(-50%); */
     background-color: #323232;
 }
 .footer__text {
