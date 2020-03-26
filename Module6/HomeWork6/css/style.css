@@ -73,20 +73,25 @@
 }
 
 /* start 1 section */
+.sc {
+    padding-top: 92px;
+    padding-bottom: 81px;
+}
 .services {
     max-width: 1150px;
-    height: 420px;
     margin: 0 auto;
+    padding-bottom: 92px;
     /* background-color: #f38181; */
 }
 
 .sub-title {
     font-size: 24px;
     text-align: center;
-    margin-bottom: 17px;
-    margin-top: 92px;
+    margin-bottom: 22px;
     font-family: 'Kaushan Script', cursive;
     color: #333333;
+    text-transform: none;
+    font-weight: 500;
 }
 .title {
     text-transform: uppercase;
@@ -95,6 +100,7 @@
     font-size: 30px;
     color: #333333;
     font-weight: 700;
+    line-height: 1.7;
 }
 .title::after {
     content: '';
@@ -174,7 +180,6 @@
 
 .team {
     max-width: 1575px;
-    height: 870px;
     margin: auto;
 
 }
@@ -247,6 +252,26 @@
     height: 57px;
     margin: auto;
 }
+.team__networks-link1 {
+    background-image: url(../img/facebook.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.team__networks-link2 {
+    background-image: url(../img/twitter.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.team__networks-link3 {
+    background-image: url(../img/pinterest.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.team__networks-link4 {
+    background-image: url(../img/instagram.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .team__networks-link:hover {
     cursor: pointer;
     transition: 200ms;
@@ -279,7 +304,7 @@
     align-items: center;
     width: 1200px;
     height: 54px;
-    margin: 81px auto 0;
+    margin: 0 auto 0;
     border-top: 2px solid #e5e5e5;
 }
 .footer__text {
