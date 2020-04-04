@@ -3,7 +3,8 @@
     padding: 0px;
 }
 .sc {
-    margin: 120px auto 0;
+    margin: 0 auto 0;
+    /* padding: 120px 0 0; */
 }
 .container {
     position: relative;
@@ -22,7 +23,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    height: 28px;
 }
 .header__logo {
    align-items: flex-start;
@@ -49,7 +49,6 @@
 }
 .header__nav-link {
     display: block;
-    position: relative;
     color: #222222;
     font-size: 14px;
     text-transform: uppercase; 
@@ -78,7 +77,8 @@
  /* start 1st section */
  .services {
      max-width: 934px;
-     height: 330px;
+     padding-top: 120px;
+     padding-bottom: 120px;
      /* margin: 0 auto; */
      /* background-color: #f38181; */
  }
@@ -91,6 +91,7 @@
     text-transform: uppercase;
     font-family: 'Roboto';
 }
+
 .services__text {
     color: #777777;
     font-size: 16px;
@@ -104,7 +105,7 @@
      display: flex;
      justify-content: space-between;
  }
- .services__img {
+ /* .services__img {
      display: block;
      height: 68px;
  }
@@ -122,23 +123,68 @@
     background-image: url(../img/locked.png);
     background-repeat: no-repeat;
     background-position: center;
- }
+ } */
  .services__item {
      width: 274px;
-     height: 185px;
      /* background-color: #fed136; */
      background-image: url(../img/circle.png);
      background-repeat: no-repeat;
      background-position: top center;
  }
  .services__item-title {
-     margin-top: 27px;
+     padding-top: 95px;
      text-align: center;
      font-family: 'Roboto Slab', sans-serif;
      font-weight: 700;
+     position: relative;
  }
+ .services__item-title-1::before {
+    content: '';
+    display: block;
+    width: 42px;
+    height: 36px;
+    background-image: url(../img/basket.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 33px;
+}
+.services__item-title-2::before {
+    content: '';
+    display: block;
+    width: 42px;
+    height: 36px;
+    background-image: url(../img/laptop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 33px;
+}.services__item-title-3::before {
+    content: '';
+    display: block;
+    width: 42px;
+    height: 36px;
+    background-image: url(../img/locked.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 33px;
+}
+
  .services__item-text {
-     margin-top: 15px;
+     padding-top: 15px;
      text-align: center;
      font-family: 'Roboto';
     font-size: 14px;
@@ -172,24 +218,46 @@
      text-transform: uppercase;
      font-family: 'Roboto';
     font-weight: 700;
+    padding-bottom: 18px;
  }
  .contact__text {
      font-size: 16px;
      font-family: 'Montserrat';
     font-weight: 300;
     font-style: italic;
-     padding: 18px 0 75px;
+     /* padding: 18px 0 75px; */
+ }
+ .contact__form {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding-top: 75px;
  }
  .contact__form-inputs-wrap {
      display: flex;
      justify-content: space-between;
-     flex-direction: column;
-     flex-wrap: wrap;
-     height: 230px;
+     flex-direction: row;
+     /* flex-wrap: wrap; */
+     width: 100%;
+     /* height: 230px; */
      padding-bottom: 30px;
  }
- .contact__form-input, .contact__form-textarea {
+ .contact__form-inputs-box {
+     display: flex;
+     flex-direction: column;
      width: 48.5%;
+ }
+
+ .contact__form-textarea-wrap {
+    display: flex;
+    justify-content: flex-end;
+    width: 48.5%;
+    margin-left: 3%;
+
+ }
+
+ .contact__form-input, .contact__form-textarea {
+     width: 100%;
      padding: 20px;
      border: 1px solid #cccccc;
      border-radius: 4px;
@@ -202,9 +270,12 @@
     font-family: 'Montserrat';
     font-weight: 700;
  }
+ .contact__form-input:not(:last-child) {
+    margin-bottom: 28px;
+ }
  .contact__form-textarea {
      height: 100%;
-     margin-left: 3%;
+     /* margin-left: 3%; */
  }
  .contact__form-btn {
      display: inline-block;

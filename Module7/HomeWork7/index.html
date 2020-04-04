@@ -16,7 +16,7 @@
                     Golden
                 </a>
                 <nav class="header__nav">
-                    <ul class="header__nav-list clearfix">
+                    <ul class="header__nav-list">
                         <li class="header__nav-item">
                             <a class="header__nav-link" href="#">HOME</a>
                         </li>
@@ -46,8 +46,8 @@
            </p>
            <ul class="services__list">
                <li class="services__item">
-                   <div class="services__img services__img1"></div>
-                   <h3 class="services__item-title">
+                   <!-- <div class="services__img services__img1"></div> -->
+                   <h3 class="services__item-title services__item-title-1">
                     E-Commerce
                    </h3>
                    <p class="services__item-text">
@@ -55,8 +55,8 @@
                    </p>
                </li>
                <li class="services__item">
-                <div class="services__img services__img2"></div>
-                   <h3 class="services__item-title">
+                <!-- <div class="services__img services__img2"></div> -->
+                   <h3 class="services__item-title services__item-title-2">
                     Responsive Web
                    </h3>
                    <p class="services__item-text">
@@ -64,8 +64,8 @@
                    </p>
                </li>
                <li class="services__item">
-                <div class="services__img services__img3"></div>
-                   <h3 class="services__item-title">
+                <!-- <div class="services__img services__img3"></div> -->
+                   <h3 class="services__item-title services__item-title-3">
                     Web Security
                    </h3>
                    <p class="services__item-text">
@@ -84,10 +84,14 @@
                </p>
                <form action="#" method="POST" class="contact__form">
                    <div class="contact__form-inputs-wrap">
-                        <input type="text" placeholder="Your name *" required class="contact__form-input">
-                        <input type="email" placeholder="Your e-mail *" required class="contact__form-input">
-                        <input type="text" placeholder="Subject" class="contact__form-input">
-                        <textarea placeholder="Your message *" required class="contact__form-textarea"></textarea>
+                       <div class="contact__form-inputs-box">
+                            <input type="text" placeholder="Your name *" required class="contact__form-input">
+                            <input type="email" placeholder="Your e-mail *" required class="contact__form-input">
+                            <input type="text" placeholder="Subject" class="contact__form-input">
+                        </div>
+                        <div class="contact__form-textarea-wrap">
+                            <textarea placeholder="Your message *" required class="contact__form-textarea"></textarea>
+                        </div>
                    </div>
                    <button type="submit" class="contact__form-btn">Send message</button>
                </form>
