@@ -1,0 +1,19 @@
+@media (min-width: 1460px) {
+    .container {
+        max-width: 1440px;
+        padding: 0 10px;
+    }
+    .partners__list {
+        max-width: 973px;
+        margin: 0 auto;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .partners__list {
+        padding-bottom: 10px;
+    }
+    .partners__item:nth-child(-n+2) {
+        padding-bottom: 0;
+    }
+}
