@@ -1,6 +1,6 @@
 @media (min-width: 980px) {
     .container {
-        max-width: 960px;
+        width: 960px;
         padding: 0 10px;
     }
     .partners__list {
