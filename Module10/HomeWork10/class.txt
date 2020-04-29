@@ -1,0 +1,62 @@
+link
+header
+container
+header-inner
+    header-inner__logo
+header-list
+    header-list__item
+    header-list__link
+info
+info-wrap
+info-container
+    info-container__text
+    info-container__title
+    info-container__button-wrap
+    info-container__button
+sc
+ 
+services
+    services__title
+    services__info
+    services__item
+    services__item-title
+    services__item-text
+    services__icon
+        services__icon--clock
+        services__icon--graphic
+        services__icon--monitor
+        services__icon--book
+        services__icon--home
+        services__icon--square
+        
+team
+    team__sub-title
+    team__title
+    team__info
+    team__text
+    team__list
+    team__member
+    team__avatar
+    team__avatar-img
+    team__networks-wrap
+    team__networks-list
+    team__networks-item
+    team__networks-link
+    team__networks-icon
+    team__member-name
+    team__member-about
+footer
+  footer__text
+  footer__color-text 
+  footer__form
+  footer__form-text 
+  footer__button
+
+
+
+
+
+
+
+
+
