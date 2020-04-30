@@ -387,17 +387,17 @@ li {
     -o-transition: 200ms;
     transition: 200ms;
 }
+.team__networks-link:hover .team__networks-icon {
+    fill: #ffffff;
+    -webkit-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms;
+}
 .team__networks-icon {
     display: inline-block;
     width: 27px;
     height: 27px;
     fill: #f38181;
-}
-.team__networks-icon:hover {
-    fill: #fff;
-    -webkit-transition: 200ms;
-    -o-transition: 200ms;
-    transition: 200ms;
 }
 .team__member-name {
     font-size: 14px;
